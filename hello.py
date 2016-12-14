@@ -1,5 +1,5 @@
-def say_hello():
-	print("Good Midday World!")
-	print("Bye Bye World!")
-# comment1
-
+def say_something(something):
+    if something:
+        print(" ".join(something))
+    else:
+        print("Hello World!")
